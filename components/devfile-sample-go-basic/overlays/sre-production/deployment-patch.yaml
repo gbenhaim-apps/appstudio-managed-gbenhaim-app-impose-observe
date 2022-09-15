@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-go-basic
+  namespace: managed-gbenhaim-app
+spec:
+  selector: null
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/productcicd/hacbs-apps@sha256:25399a1d374f79ad64008fc1da0754c81aef259b25da24fef496d54732aa15ee
+        name: container-image
+        resources: {}
+status: {}
