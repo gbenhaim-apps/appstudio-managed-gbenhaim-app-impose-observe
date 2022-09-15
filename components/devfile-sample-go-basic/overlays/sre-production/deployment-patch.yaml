@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/productcicd/hacbs-apps@sha256:3210187920e48d2990d8ddc1a52630e6a44eae090514272701744d1e900cf606
+      - image: quay.io/productcicd/hacbs-apps@sha256:5d93e39cdbf462f9ba0fcdcdad822946d76a42385274195c8702a2718121e234
         name: container-image
         resources: {}
 status: {}
