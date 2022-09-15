@@ -5,6 +5,7 @@ metadata:
   name: devfile-sample-go-basic
   namespace: managed-gbenhaim-app
 spec:
+  replicas: 1
   selector: null
   strategy: {}
   template:
@@ -12,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/productcicd/hacbs-apps@sha256:25399a1d374f79ad64008fc1da0754c81aef259b25da24fef496d54732aa15ee
+      - image: quay.io/productcicd/hacbs-apps@sha256:a9c4932c9848e2a387bb3a11e65d2728d60b4539b7e46f68e8e79d4cf4545d5b
         name: container-image
         resources: {}
 status: {}
